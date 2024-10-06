@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+h1 {
+    color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el campo de búsqueda */
+input#inputBuscar {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+/* Estilo para el botón de búsqueda */
+button#btnBuscar {
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+/* Listado de películas */
+.list-group-item {
+    background-color: #495057;
+    border: 1px solid #6c757d;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #5a6268;
+    cursor: pointer;
+}
+
+/* Contenedor de detalles de la película seleccionada */
+#movieDetails {
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #6c757d;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none; /* Oculto por defecto */
+}
+
+#movieDetails h2 {
+    color: #ffc107;
+    margin-bottom: 15px;
+}
+
+#movieDetails p {
+    margin: 5px 0;
+}
+
+/* Estrellas de calificación */
+.star {
+    color: orange;
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #212529;
+    color: #adb5bd;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+main {
+    min-height: calc(100vh - 100px);
+    padding-bottom: 20px;
+}
+
+/* Estilo para el contenedor superior (offcanvas-top) */
+.offcanvas-top {
+    height: fit-content;
+    max-width: 800px;
+    margin: 20px auto;
+}
